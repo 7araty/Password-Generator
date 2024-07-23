@@ -4,8 +4,9 @@ const passBtn = document.getElementById('password-btn');
 const clipbordCopy = document.getElementById('copy');
 const showHide = document.getElementById('show-hide');
 
+// toggle the visibility of  input type password
 showHide.addEventListener('click', toggleShowHide);
-// toggle the visibility of  input type password 
+ 
 function toggleShowHide(){
     if(passwordGen.type === 'password'){
         passwordGen.type = 'text';
